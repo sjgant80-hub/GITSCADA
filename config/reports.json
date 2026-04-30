@@ -1,0 +1,20 @@
+{
+  "_schema": "gitscada/reports/v1",
+  "reports": [
+    {
+      "id": "daily-oee",
+      "name": "Daily OEE Summary",
+      "schedule": "0 6 * * *",
+      "type": "kpi",
+      "metrics": ["oee", "availability", "performance", "quality"],
+      "output": "issue"
+    },
+    {
+      "id": "alarm-summary",
+      "name": "Daily Alarm Summary",
+      "schedule": "0 7 * * *",
+      "type": "alarm_journal",
+      "output": "issue"
+    }
+  ]
+}

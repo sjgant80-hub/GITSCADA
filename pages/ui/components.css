@@ -1,0 +1,16 @@
+.ph { font-size:7px; padding:3px 8px; color:var(--ign); letter-spacing:1px; font-weight:600;
+      background:rgba(212,169,74,.05); border-bottom:1px solid var(--b); }
+.nav-item { padding:3px 8px; font-size:8px; cursor:pointer; border-left:2px solid transparent; transition:.12s; }
+.nav-item:hover { background:rgba(56,181,249,.04); }
+.nav-item.on { background:rgba(56,181,249,.08); border-left-color:var(--ig); color:var(--wh); }
+.kpi-card { background:var(--card); border:1px solid var(--b); border-radius:4px; padding:10px; text-align:center; }
+.kpi-card .label { font-size:7px; color:var(--t2); text-transform:uppercase; letter-spacing:1px; }
+.kpi-card .value { font-size:20px; font-weight:700; color:var(--wh); margin:4px 0; }
+.kpi-card .unit { font-size:8px; color:var(--t2); }
+.kpi-card.ok .value { color:var(--ok); } .kpi-card.wr .value { color:var(--wr); } .kpi-card.er .value { color:var(--er); }
+.site-node { background:var(--s2); border:1px solid var(--b); border-radius:4px; padding:6px 10px;
+  display:inline-flex; align-items:center; gap:6px; font-size:8px; cursor:pointer; }
+.site-node:hover { border-color:var(--ig); }
+.btn { background:var(--s2); border:1px solid var(--b); color:var(--t2); font-size:7px;
+       padding:2px 8px; cursor:pointer; border-radius:2px; }
+.btn:hover { border-color:var(--ig); color:var(--ig); }

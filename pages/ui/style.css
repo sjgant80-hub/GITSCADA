@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&display=swap');
+:root {
+  --bg:#080b12; --card:#0e1220; --s2:#151a28; --b:#1e2840;
+  --t:#98a8c0; --t2:#4a5a74;
+  --ok:#42e898; --wr:#f0a030; --er:#ff4466; --cr:#ff2244;
+  --ig:#38b5f9; --ign:#d4a94a; --lav:#a080ff; --teal:#38d8b8;
+  --wh:#e8f0ff;
+}
+* { margin:0; box-sizing:border-box; font-family:'IBM Plex Mono',monospace; }
+body { background:var(--bg); color:var(--t); height:100vh; overflow:hidden;
+  display:grid; grid-template:'H H H'36px 'W M E'1fr 'S S S'24px / 180px 1fr 200px; gap:1px; }
+.H { grid-area:H; background:#060810; border-bottom:1px solid var(--b);
+     display:flex; align-items:center; padding:0 10px; gap:6px; }
+.W { grid-area:W; background:var(--card); border-right:1px solid var(--b); overflow-y:auto; font-size:8px; }
+.M { grid-area:M; background:var(--bg); overflow:auto; padding:8px; }
+.E { grid-area:E; background:var(--card); border-left:1px solid var(--b); overflow-y:auto; font-size:8px; }
+.S { grid-area:S; background:#060810; border-top:1px solid var(--b);
+     display:flex; align-items:center; padding:0 8px; gap:4px; font-size:7px; }

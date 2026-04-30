@@ -1,0 +1,20 @@
+{
+  "_schema": "gitscada/config/v1",
+  "sites": [
+    {
+      "id": "assway",
+      "name": "Assway Demo Plant",
+      "location": "Virtual",
+      "timezone": "America/Chicago",
+      "plc_repo": "teslasolar/GITPLC",
+      "tag_repo": "teslasolar/GITTAG",
+      "hmi_repo": "teslasolar/GITHMI",
+      "gateway": "http://localhost:8090",
+      "areas": ["Production", "Utilities", "Storage", "Shipping"]
+    }
+  ],
+  "enterprise": {
+    "name": "KCC",
+    "erp_id": "kcc-001"
+  }
+}

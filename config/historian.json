@@ -1,0 +1,11 @@
+{
+  "_schema": "gitscada/historian/v1",
+  "storage": "github_issues",
+  "repo": "teslasolar/GITSCADA",
+  "label": "gittag-history",
+  "snapshot_interval_ms": 60000,
+  "retention_days": 90,
+  "compression": "deadband",
+  "deadband_pct": 1.0,
+  "batch_size": 50
+}
